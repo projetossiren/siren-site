@@ -1,0 +1,21 @@
+{
+    // Visit https://aka.ms/tsconfig to read more about this file
+    "compilerOptions": {
+        "rootDir": "src/ts",
+        "outDir": "src/js",
+        "module": "es2022",
+        "moduleResolution": "bundler",
+        "target": "es2022",
+        "lib": [
+            "ES2022",
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "sourceMap": false,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/ts/**/*.ts"
+    ]
+}

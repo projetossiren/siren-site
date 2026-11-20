@@ -1,0 +1,49 @@
+:root {
+    color-scheme: light;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    color: #173642;
+    background: white;
+    font-synthesis: none;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+
+    --color1: #003366;
+    /* Azul-marinho */
+    --color2: #4F83B5;
+    /* Azul intermediário */
+    --color3: #B4CBE5;
+    /* Azul-claro */
+    --color4: #e5eefa;
+    /* Azul muito claro */
+    --color5: #ffffff;
+    /* Branco */
+    --color6: #001F40;
+    /* Azul profundo */
+    --color7: #7FA6CC;
+    /* Azul suave */
+    --color8: #263746;
+    /* Cinza azulado */
+
+    --transtime: 250ms;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    background: var(--color5);
+    min-height: 100vh;
+
+    >* {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.container {
+    padding: 0 2rem;
+}
